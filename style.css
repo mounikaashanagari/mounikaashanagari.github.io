@@ -1,0 +1,187 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Georgia, "Times New Roman", serif;
+  background: #f7f3ef;
+  color: #333;
+  line-height: 1.7;
+}
+
+header {
+  background: #ffffff;
+  border-bottom: 1px solid #ddd;
+  padding: 35px 20px 25px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 42px;
+  letter-spacing: 1px;
+  color: #2f2f2f;
+  margin-bottom: 18px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #555;
+  font-weight: bold;
+  margin: 0 18px;
+  font-size: 16px;
+}
+
+nav a:hover {
+  color: #000;
+  border-bottom: 2px solid #555;
+  padding-bottom: 4px;
+}
+
+.container {
+  width: 80%;
+  max-width: 1050px;
+  margin: 45px auto;
+}
+
+.home-section {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  background: #ffffff;
+  padding: 45px;
+  border-radius: 14px;
+  border: 1px solid #ddd;
+}
+
+.profile-img {
+  width: 260px;
+  height: 260px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 5px solid #f0e7df;
+  background: #ddd;
+}
+
+.home-text h2 {
+  font-size: 34px;
+  color: #444;
+  margin-bottom: 15px;
+}
+
+.home-text p {
+  font-size: 19px;
+  margin-bottom: 18px;
+}
+
+.button {
+  display: inline-block;
+  margin-top: 12px;
+  padding: 10px 18px;
+  background: #555;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+.button:hover {
+  background: #333;
+}
+
+h2 {
+  font-size: 32px;
+  color: #444;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 8px;
+}
+
+h3 {
+  font-size: 24px;
+  color: #555;
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+ul {
+  margin-left: 25px;
+  margin-bottom: 20px;
+}
+
+li {
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.card {
+  background: #ffffff;
+  padding: 25px;
+  margin-bottom: 25px;
+  border-radius: 12px;
+  border: 1px solid #ddd;
+}
+
+.card h3 {
+  margin-top: 0;
+}
+
+.info-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 25px;
+}
+
+.small-text {
+  color: #666;
+  font-size: 16px;
+}
+
+a {
+  color: #555;
+}
+
+footer {
+  text-align: center;
+  padding: 25px;
+  margin-top: 50px;
+  background: #ffffff;
+  border-top: 1px solid #ddd;
+  color: #666;
+}
+
+@media screen and (max-width: 800px) {
+  header h1 {
+    font-size: 32px;
+  }
+
+  nav a {
+    display: inline-block;
+    margin: 8px 10px;
+  }
+
+  .container {
+    width: 90%;
+  }
+
+  .home-section {
+    flex-direction: column;
+    text-align: center;
+    padding: 30px;
+  }
+
+  .profile-img {
+    width: 210px;
+    height: 210px;
+  }
+
+  .info-grid {
+    grid-template-columns: 1fr;
+  }
+}
