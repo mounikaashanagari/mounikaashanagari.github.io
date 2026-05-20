@@ -1,141 +1,54 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Mounika Ashanagari</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: Georgia, serif;
-      background: #f7f3ef;
-      color: #444;
-    }
-
-    .page {
-      display: flex;
-      min-height: 100vh;
-    }
-
-    .left {
-      width: 50%;
-      background: linear-gradient(to bottom, #4d91a8, #2f4f4f);
-      display: flex;
-      align-items: flex-end;
-      justify-content: center;
-      color: white;
-      font-size: 42px;
-      font-weight: bold;
-      padding-bottom: 80px;
-      box-sizing: border-box;
-    }
-
-    .right {
-      width: 50%;
-      padding: 40px 70px;
-      box-sizing: border-box;
-    }
-
-    nav {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      border-bottom: 1px solid #ddd;
-      padding-bottom: 20px;
-      margin-bottom: 60px;
-    }
-
-    nav strong {
-      font-size: 18px;
-      letter-spacing: 1px;
-    }
-
-    nav a {
-      text-decoration: none;
-      color: #555;
-      margin-left: 25px;
-      font-weight: bold;
-      font-size: 14px;
-    }
-
-    h1 {
-      font-size: 36px;
-      color: #555;
-    }
-
-    h2 {
-      font-size: 30px;
-      margin-top: 35px;
-      color: #555;
-    }
-
-    p, li {
-      font-size: 18px;
-      line-height: 1.6;
-    }
-
-    a {
-      color: #555;
-    }
-
-    @media screen and (max-width: 800px) {
-      .page {
-        flex-direction: column;
-      }
-
-      .left, .right {
-        width: 100%;
-      }
-
-      .left {
-        height: 300px;
-      }
-
-      .right {
-        padding: 30px;
-      }
-    }
-  </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mounika Ashannagari</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <div class="page">
+  <header>
+    <h1>Mounika Ashannagari</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="publications.html">Publications</a>
+      <a href="projects.html">Projects</a>
+    </nav>
+  </header>
 
-    <div class="left">
-      ABOUT
-    </div>
+  <main class="container">
+    <section class="home-section">
+      <img src="profile.jpg" alt="Mounika Ashannagari" class="profile-img">
 
-    <div class="right">
+      <div class="home-text">
+        <h2>Biostatistics & Data Science Graduate Student</h2>
 
-      <nav>
-        <strong>MOUNIKA ASHANAGARI</strong>
-        <div>
-          <a href="index.html">ABOUT</a>
-          <a href="#">PRESENTATIONS</a>
-        </div>
-      </nav>
+        <p>
+          I am a Master of Science student in Biostatistics and Data Science at
+          UTHealth Houston School of Public Health.
+        </p>
 
-      <h1>About Me</h1>
-      <p>
-        I am interested in bioinformatics, computational biology,
-        machine learning, and data science.
-      </p>
+        <p>
+          My interests include biostatistics, data science, bioinformatics,
+          computational biology, machine learning, health data visualization,
+          and biomedical research.
+        </p>
 
-      <h2>Contact & Links</h2>
-      <ul>
-        <li>Email: mounika.ashanagari@gmail.com</li>
-        <li>GitHub: <a href="https://github.com/mounikaashanagari">mounikaashanagari</a></li>
-        <li>LinkedIn: <a href="#">your-linkedin</a></li>
-      </ul>
+        <p>
+          I have experience in statistical modeling, data analysis, web-based
+          visualization, research documentation, and interactive dashboard development.
+        </p>
 
-      <h2>Research Interests</h2>
-      <ul>
-        <li>Computational biology</li>
-        <li>Machine learning</li>
-        <li>Bioinformatics</li>
-      </ul>
+        <a class="button" href="about.html">Learn More About Me</a>
+      </div>
+    </section>
+  </main>
 
-    </div>
-
-  </div>
+  <footer>
+    <p>Email: <a href="mailto:mounika.ashanagari@gmail.com">mounika.ashanagari@gmail.com</a> | Houston, Texas</p>
+  </footer>
 
 </body>
 </html>
