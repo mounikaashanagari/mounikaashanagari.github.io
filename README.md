@@ -1,38 +1,32 @@
-# Mounika Ashannagari — Academic Website
+# Mounika Ashannagari — academic website
 
-A redesigned academic research portfolio for GitHub Pages. No build tool required.
+This is a complete static GitHub Pages website redesigned in a light, modern academic style with a circular portrait and compact cards. No build tools are needed.
 
-## Preview locally
+## How to update the website
+1. Open the repository that currently publishes your personal GitHub Pages website.
+2. Select **Add file → Upload files** and upload the **individual files contained in this ZIP**, not the ZIP file itself. All files must be at the repository root.
+3. Replace existing `index.html`, `about.html`, `publications.html`, `projects.html`, `style.css` and `README.md`. Add `profile.jpg` and `Mounika_Ashannagari_Academic_CV.pdf`.
+4. Commit changes to the publishing branch (`main` if that is your configured branch).
+5. Check **Settings → Pages** to confirm branch `main` and folder `/(root)`, or use your existing Pages deployment workflow.
+6. Check the **Actions** tab for a successful Pages deployment, then hard-refresh your website.
 
-Open `index.html` in your browser, or run `python -m http.server 8000` from this folder and visit http://localhost:8000.
+## Files
+- `index.html`: Homepage, profile card, research and education
+- `about.html`: Experience, education, skills and interests
+- `publications.html`: Papers, submissions and thesis
+- `projects.html`: Research and applied projects
+- `style.css`: Shared responsive design
+- `profile.jpg`: Portrait cropped from the screenshot of your previous site; replace with your original full-resolution photo when available for better image quality
+- `Mounika_Ashannagari_Academic_CV.pdf`: Latest CV available in the conversation
 
-## Deploy with the corrected GitHub Pages address
+## Address / username
+The branding on the pages uses “Mounika Ashannagari.” Editing HTML cannot change a GitHub Pages address. To use `mounikaashannagari.github.io`, your GitHub username and personal-site repository would need to match that spelling and be available.
 
-Desired site address: **https://mounikaashannagari.github.io/** (double **n** in Ashannagari).
-
-1. On GitHub, check whether the username `mounikaashannagari` is available. The site files cannot rename a GitHub account.
-2. If you want that address and the username is available, change your GitHub username from `mounikaashanagari` to `mounikaashannagari` under Settings → Account → Change username. Consider GitHub's warnings and effects on links/remotes before confirming.
-3. Rename or create the public repository **`mounikaashannagari.github.io`** under the matching account. The repository name must match the GitHub username for a user site.
-4. Upload the contents of this ZIP (HTML pages, CSS, CV PDF, README) to the repository root on the publishing branch. Do not upload the containing folder itself unless GitHub Pages is configured accordingly.
-5. In repository **Settings → Pages**, set the publishing source to **Deploy from a branch**, `main`, `/ (root)` if not already configured.
-6. Once published, visit the new address. Check all links, including the CV download.
-
-**Important:** Merely renaming the GitHub Pages repository without updating the GitHub account username does not create a user site at the requested new username address. The old GitHub Pages domain may not redirect reliably; update external links yourself.
-
-## Site files
-- `index.html` — home
-- `about.html` — biography, education, work history and interests
-- `publications.html` — publication status and authorship
-- `projects.html` — research and technical projects
-- `style.css` — shared responsive style
-- `Mounika_Ashannagari_Academic_CV.pdf` — downloadable current academic CV
-
-## Editorial notes
-- Uses the current academic CV and research summaries supplied in conversation.
-- ROADEO described as co-first author and under review at Human Molecular Genetics, not accepted.
-- JAD paper described as submitted and under consideration, not accepted.
-- Master's thesis defended in November 2026; degree expected December 2026.
-- Research and academic support both affiliate with McWilliams School of Biomedical Informatics; master's degree affiliates with UTHealth Houston School of Public Health.
-- Displays 'Open to relocation' instead of personal address.
-- Verify publisher / full citation for VISDB 2.0 and project contribution details before publishing.
-- If preferred, replace the abstract scientific artwork with a professional portrait later.
+## Content notes
+- Master's thesis defense: November 2026; degree expected December 2026.
+- Both UTHealth work entries: McWilliams School of Biomedical Informatics.
+- Degree institution: UTHealth Houston School of Public Health.
+- ROADEO: co-first-author manuscript under review with *Human Molecular Genetics*.
+- Shared/distinct EOAD/LOAD: submitted to *Journal of Alzheimer's Disease* and under consideration.
+- VISDB 2.0 is marked published; full bibliographic details should be verified before adding a DOI or journal link.
+- Replace portrait with a high-resolution original when possible.
